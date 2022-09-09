@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <div class="navbar">
+          <img src="images/logo.png" class="logo">
+          <nav>
+              <ul id="menuList">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Services</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="">Contact Us</a></li>
+              </ul>
+          </nav>
+          <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+      </div>
+      
+      <div class="row">
+          <div class="col-1">
+              <h2>Verma Naksha Ghar</h2>
+              <h3>A complete solution for your home..!</h3>
+              <p>(100& Vastu Compliant House Plan)</p>
+              <h4>Rs. 10 per sft</h4>
+              <button type="button">Order Now<img src="images/arrow.png"></button>
+          </div>
+          <div class="col-2">
+              <img src="images/building.jpg" class="building">
+              
+          </div>
+      </div>
+      
+      <div class="social-links">
+          <img src="images/fb.png">
+          <img src="images/tw.png">
+          <img src="images/ig.png">
+      </div>
+      
+  </div>
+    
+    <script>
+    
+        var menuList = document.getElementById("menuList");
+        
+        menuList.style.maxHeight = "0px";
+        
+        function togglemenu(){
+            
+            if(menuList.style.maxHeight == "0px")
+                {
+                     menuList.style.maxHeight = "130px";
+                }
+            else
+                {
+                    menuList.style.maxHeight = "0px";
+                }
+            
+        }
+    
+    </script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
